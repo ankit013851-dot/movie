@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+background-color: black;
+color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+  
+}
+.movie{
+    background-color: black;
+    color: white;
+    
+}
+.banner{ 
+    display: flex;
+
+}
+
+.banner img{
+    width: 100%;
+}
+.movie-list{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.card img{
+    width: 100%;
+    margin-top: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+.card{
+    width: 250px;
+    padding: 10px;
+
+    
+}
+.card p{
+    margin-top: -25px;
+
+}
+.movie-crad{
+  
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1;
+    
+}
+.latest{
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+
+}
